@@ -1,0 +1,73 @@
+.cookie-notice-container {
+  position: fixed;
+  z-index: 100;
+  background-color: #222;
+  width: 400px;
+  padding: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 0;
+  font-family: 'Poppins', sans-serif;
+
+  .cookie-notice-wrapper{
+
+    .cookie-notice-content {
+      color: #fff;
+      padding-right: 15px;
+      line-height: normal;
+      letter-spacing: 0.5px;
+    }
+
+    .cookie-notice-content p {
+      margin-bottom: 20px;
+      text-align: left;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .cookie-notice-btn-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+     .btn-accept {
+        margin-left: 20px;
+        text-decoration: underline;
+      }
+
+      .btn-accept:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .btn-decline {
+        margin-left: 20px;
+      }
+
+      .btn-decline:hover {
+        color: #921313;
+      }
+
+      .btn-terms:hover {
+        color: #000000;
+      }
+
+      .md-done{
+        font-size: 18px;
+      }
+    }
+
+    a {
+      font-size: 12px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+
+
+
+
+

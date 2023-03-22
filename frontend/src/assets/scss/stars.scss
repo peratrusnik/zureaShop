@@ -1,0 +1,45 @@
+.stars-wrapper {
+  font-size: 1em;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  .filled {
+    color: rgb(255, 221, 0);
+  }
+
+  .half {
+    color: rgb(255, 221, 0);
+  }
+
+  .empty {
+  }
+
+  .star {
+    display: flex;
+    gap: 4px;
+  }
+
+  .star-list {
+    font-size: 2rem;
+    width: 100%;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+}
+
+
+.stars-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  .reviews{
+    display: flex;
+    gap: 10px;
+    color: #969696;
+    font-weight: 300;
+  }
+}

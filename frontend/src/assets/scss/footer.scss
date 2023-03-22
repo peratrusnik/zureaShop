@@ -1,0 +1,196 @@
+#footer{
+    margin: 0;
+    padding: 0;
+}
+.body-footer{
+    display: flex;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    ul li{
+        margin-bottom: 10px;
+    }
+    ul li a{
+        color: #ccc;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    ul li a:hover {
+        color: #fff;
+    }
+    .title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .link-wrapper{
+        .collapse{
+            @media (min-width: 992px){
+                display: block;        
+            }
+        }
+        h3 {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 500;
+            margin-bottom: 20px;            
+            a{
+                display: none;
+                @media (max-width: 992px){
+                    display: inline-block;            
+                }              
+            }        
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        a{
+            float: right;
+            font-size: 15px;
+        }
+        a svg{
+            color: #fff;
+        }
+
+    }
+    @media (min-width: 992px){
+        .dropdown{
+            display: flex;
+            padding: 50px 15px;
+        }
+        .card-body{
+            padding: 0;
+            background-color: transparent;
+        }       
+    }
+    @media (max-width: 992px){
+        .dropdown{
+            padding: 30px 15px 20px;
+        } 
+    }
+    
+    .footer-mainlink-wrapper, .footer-account-link{
+
+        @media (max-width: 992px){
+            display: block;
+            .card{
+                background-color: transparent;
+                padding: 0 15px;
+            }
+            h3{
+                padding: 10px;
+                font-size: 16px;
+                font-weight: 500;
+                border: 1px solid #eee;
+            }
+            .title{
+                margin-bottom: 0;
+            } 
+            ul{
+                margin-bottom: 0;
+            }
+        }  
+    }    
+
+}
+.bottom-footer{
+    background-color: #222;
+    .row{
+        padding: 8px 0;
+    }
+    .copy-link p{
+        color: #fff;
+        font-size: 13px;
+        line-height: 27px;
+        text-transform: capitalize;
+        font-weight: 300;
+        display: inline-block;
+        text-align: center;
+    }
+    .logo-google, .logo-microsoft, .logo-apple{
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .logo-google :hover, .logo-microsoft :hover, .logo-apple :hover{
+      background-position: 0 -36px;
+    }
+    .logo-google div{
+        height: 36px;
+        width: 36px;
+        background-image: url(../img/App_Icon_1.png);
+        background-position: 0 0;
+        transition: all 0.6s ease-in-out;
+    }
+    .logo-microsoft div{
+        height: 36px;
+        width: 36px;
+        background-image: url(../img/App_Icon_2.png);
+        background-position: 0 0;
+        transition: all 0.6s ease-in-out;
+    }
+    .logo-apple div{
+        height: 36px;
+        width: 36px;
+        background-image: url(../img/App_Icon_3.png);
+        background-position: 0 0;
+        transition: all 0.6s ease-in-out;
+    }
+    .payment-icons .pay-icon-1 div{
+        width: 60px;
+        height: 20px;
+        background-image: url(../img/pay_img_1.png);
+    }
+    .payment-icons .pay-icon-2 div{
+        width: 60px;
+        height: 20px;
+        background-image: url(../img/pay_img_2.png);
+    }
+    .payment-icons .pay-icon-3 div{
+        width: 60px;
+        height: 20px;
+        background-image: url(../img/pay_img_3.png);
+    }
+    .payment-icons .pay-icon-4 div{
+        width: 60px;
+        height: 20px;
+        background-image: url(../img/pay_img_4.png);
+    }
+    .payment-icons .pay-icon-1, 
+    .payment-icons .pay-icon-2,
+    .payment-icons .pay-icon-3, 
+    .payment-icons .pay-icon-4{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .app-logo, .copy-link, .payment-icons{
+        text-align: center;
+    }
+    .app-logo{
+        @media (min-width: 992px) {
+            padding-top: 12px;
+        }
+        @media (min-width: 1200px) {
+            padding-top: 0;
+        }
+    }
+    .copy-link p{
+        padding-top: 8px;
+        margin-bottom: 0;
+        @media (max-width: 992px){
+            padding-top: 0;          
+        } 
+    }
+    .pay-logo-wrapper{
+        padding-top: 10px;
+    }  
+
+}
+
+
+
+
+

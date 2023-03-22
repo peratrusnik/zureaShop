@@ -1,0 +1,109 @@
+.newslatter-wrapper{
+    padding: 50px 0;
+    background-color: #f4f5f6;
+    .newsletter{
+        float: left;
+        form{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .input-wrapper{
+        display: flex;
+        width: 100%;
+    }
+    .newsletter-title{
+        font-size: 30px;
+        color: #222;
+        font-weight: 600;
+        display: inline-block;
+    }
+    .newsletter-input{
+        padding: 0 15px;
+        border: none;
+        color: #888;
+        background-color: #fff;
+        font-weight: 400;
+        border-radius: 0;
+        height: 40px;
+        margin-left: 20px;
+        width: 100%;
+        &:focus{
+            color: #222;
+        }
+    }
+    .btn-dark{
+        width: 60px;
+        height: 40px;
+        background-color: #111;
+        border-radius: 0;
+        padding: 0 20px;
+    }
+    .social-media{
+        // float: left;
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        padding-top: 2px;
+        li{
+            display: inline-block;
+            a{  
+            height: 40px;
+            width: 40px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+                   
+                svg{
+                    color: #222;
+                }            
+            }
+        }    
+    }
+}
+
+.newslatter-wrapper .social-media li:nth-child(1) a:hover svg{
+    color: #4867aa;
+}
+.newslatter-wrapper .social-media li:nth-child(2) a:hover svg{
+    color: #1da1f2;
+}
+.newslatter-wrapper .social-media li:nth-child(3) a:hover svg{
+    color: #ef9435;
+}
+.newslatter-wrapper .social-media li:nth-child(4) a:hover svg{
+    color: #d54836;
+}
+.newslatter-wrapper .social-media li:nth-child(5) a:hover svg{
+    color: #fe007b;
+}
+
+@media (max-width: 992px){
+    .newslatter-wrapper .newsletter form{
+        display: block;
+    }
+    .newslatter-wrapper .newsletter{
+        text-align: center;
+        float: none;
+    }
+    .newsletter-title{
+        margin-bottom: 20px;
+    }
+    .newslatter-wrapper{
+        padding: 25px 0;
+    }
+    .social-media-wrapper{
+        display: inline-block;
+    }
+    .newslatter-wrapper{
+        text-align: center;
+    }
+}
+@media (max-width: 1200px){
+    .newslatter-wrapper .social-media{
+        justify-content: center;
+        padding-top: 20px;
+    }
+}

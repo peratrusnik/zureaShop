@@ -1,0 +1,63 @@
+table{
+    font-size: 18px;
+    thead{
+        text-align: center;
+    }
+    tbody{
+        text-align: center;
+        tr td:nth-child(5) .form-check{
+            display: inline-block;    
+        }
+    }
+}
+.table tbody tr td{
+        padding: 3px 0;
+    }
+nav{
+    cursor: pointer;
+}
+.userInfoWrapper{
+    display: flex;
+    justify-content: center;
+    h2{
+        margin: 30px 0;
+    }
+    span{
+        float: right;
+    }
+    table{
+        border: 1px solid #222;
+        background-color: #f2f2f2;
+    }
+    .title, .back{
+        text-align: center;
+    }
+    .back{
+        font-size: 20px;
+    }
+    tbody tr td:last-child{
+        color: blue;
+    }
+}
+.searchPanel{
+    position: absolute;
+    top: 30px; 
+    right: 30px;
+    display: flex;
+    input{
+        height: 39px;
+        width: 200px;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 5px;
+    }
+    button{
+        height: 39px;
+        padding: 0 10px;
+        margin-left: 3px;
+        &:hover{
+            background-color: #e6e3e3;
+            color: blue;
+        }
+    }
+}

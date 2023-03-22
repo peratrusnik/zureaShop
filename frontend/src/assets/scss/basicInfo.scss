@@ -1,0 +1,48 @@
+.basic-info-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.5s ease;
+    gap: 20px;
+    padding: 30px 100px;
+    img {
+        width: 50px;
+    }
+    @media (max-width: 1440px) {
+        justify-content: center;
+        padding: 30px 50px;
+    }
+    .shipping {
+        background: #F7F7F9;
+        border: 1px solid #cdcdce;
+        width: 400px;
+        padding: 10px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        border-radius: 5px;
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
+        h3{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        p {
+            color: #666666;
+        }
+        img {
+            opacity: 0.7;   
+        }
+        &:hover {
+            img{
+                opacity: 1;
+            }
+        }
+    }
+}
+// #BBBABA

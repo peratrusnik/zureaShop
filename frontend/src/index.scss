@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@200;300;400;500;800&display=swap');
+@import "assets/scss/login";
+@import "assets/scss/header.scss";
+@import "assets/scss/nav.scss";
+@import "assets/scss/topHeaderInfo.scss";
+@import "assets/scss/topTwoProducts.scss";
+@import "assets/scss/basicInfo.scss";
+@import "assets/scss/footer.scss";
+@import 'assets/scss/productDetail.scss';
+@import "assets/scss/products";
+@import 'assets/scss/stars.scss';
+@import "assets/scss/loader";
+@import "assets/scss/modal";
+@import "assets/scss/cookieNotice";
+@import "assets/scss/homeSlider.scss";
+@import "assets/scss/categories.scss";
+@import 'assets/scss/singleCart.scss';
+@import 'assets/scss/dashboardCategory.scss';
+@import 'assets/scss/dashboardUsers.scss';
+@import "assets/scss/uiKit";
+@import "assets/scss/scrollToTop.scss";
+@import "assets/scss/testimonial.scss";
+@import "assets/scss/newsletter.scss";
+@import "assets/scss/newsletterModal.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,31 @@
+.topHeader{
+    background: black;
+    .orderInfo{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        @media screen and (max-width: 485px){
+            flex-direction: column;
+        }
+
+        p{
+            color: #fff;
+            padding: 10px 0px;
+            font-size: 14px;
+            margin: 0px;
+        }
+
+
+        .btn{
+            color: #fff !important;
+        }
+        
+        .rightSection{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
